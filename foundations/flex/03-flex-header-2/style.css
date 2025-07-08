@@ -46,3 +46,29 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Solution starts here */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 6px;
+}
+
+.header-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile-image {
+  flex-shrink: 0;
+}

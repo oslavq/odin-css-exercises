@@ -83,13 +83,15 @@ button.cancel {
 .modal-content {
   display: flex;
   flex-flow: column nowrap;
-  gap: 12px;
+  gap: 6px;
 }
 
 .modal-header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .modal-actions {
